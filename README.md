@@ -26,10 +26,20 @@ ffmpeg -i rulings.mp4 -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -
 
 
 ## gif gifski
+<details>
+<summary>Animations</summary>
+  
 [<img src="arts.gif" width="450"/>](arts.gif)
-
+  
+</details>
 ## gif ffmpeg 
 ```
 ffmpeg -i "arts.mp4" -vf "fps=60,scale=720:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 arts.gif
 ```
+<details>
+<summary>Animations</summary>
+  
 [<img src="arts2.gif" width="450"/>](arts2.gif)
+  
+</details>
+
