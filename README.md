@@ -11,7 +11,7 @@ Repo for random testing purposes
 ffmpeg -i rulings.mp4 -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 1 rulings.webp
 ```
 <details>
-<summary>**Examples**</summary>
+<summary><b>Examples</b></summary>
   
 ## Search  
   
@@ -30,7 +30,7 @@ ffmpeg -i rulings.mp4 -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -
 
 ## gifski
 <details>
-<summary>**Animations**</summary>
+<summary><b>Animations</b></summary>
   
 [<img src="arts.gif" width="450"/>](arts.gif)
   
@@ -42,7 +42,7 @@ ffmpeg -i rulings.mp4 -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -
 ffmpeg -i "arts.mp4" -vf "fps=60,scale=720:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 arts.gif
 ```
 <details>
-<summary>**Examples**</summary>
+<summary><b>Examples</b></summary>
   
 [<img src="arts2.gif" width="450"/>](arts2.gif)
   
