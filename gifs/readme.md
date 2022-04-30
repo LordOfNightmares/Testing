@@ -1,5 +1,5 @@
-# Testing
-Repo for random testing purposes
+# Gifs
+ShareX ffmpeg encoding for gif
 
 ## search
 [<img src="search.gif" width="450"/>](search.gif)
