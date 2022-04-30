@@ -1,5 +1,5 @@
 # Gifs
-using ShareX screen recording `ffmpeg` comands/encoding for gif
+*Using ShareX screen recording `ffmpeg` comands/encoding for gif*
 
 ## search
 [<img src="search.gif" width="450"/>](search.gif)
