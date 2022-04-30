@@ -1,8 +1,8 @@
 # Testing
 Repo for random testing purposes
 
-##animated webp
+## webp
 [<img src="arts.webp" width="450"/>](arts.webp)
 
-##animated gif
+## gif
 [<img src="arts.gif" width="450"/>](arts.gif)
