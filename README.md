@@ -6,7 +6,7 @@ Repo for random testing purposes
 ## ffmpeg (webp)
 
 <details>
-<summary><pre><code>ffmpeg -i rulings.mp4 -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 1 rulings.webp</code></pre></summary>
+<summary><code>ffmpeg -i rulings.mp4 -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 1 rulings.webp</code></summary>
   
 ## Search  
   
@@ -34,7 +34,7 @@ Repo for random testing purposes
 ## ffmpeg (gif)
 
 <details>
-<summary><pre><code>ffmpeg -i "arts.mp4" -vf "fps=60,scale=720:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 arts.gif</code></pre></summary>
+<summary><code>ffmpeg -i "arts.mp4" -vf "fps=60,scale=720:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 arts.gif</code></summary>
   
 [<img src="arts2.gif" width="450"/>](arts2.gif)
   
