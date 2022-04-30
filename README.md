@@ -1,7 +1,9 @@
 # Testing
 Repo for random testing purposes
 
-**Source**: https://mattj.io/posts/2021-02-27-create-animated-gif-and-webp-from-videos-using-ffmpeg/
+**Sources**: 
+- https://mattj.io/posts/2021-02-27-create-animated-gif-and-webp-from-videos-using-ffmpeg/
+- https://gist.github.com/witmin/1edf926c2886d5c8d9b264d70baf7379
 
 ## ffmpeg (webp)
 
