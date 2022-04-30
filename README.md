@@ -1,3 +1,4 @@
 # Testing
 Repo for random testing purposes
-![Alt Text](arts.webp)
+
+[<img src="arts.webp" width="450"/>](arts.webp)
